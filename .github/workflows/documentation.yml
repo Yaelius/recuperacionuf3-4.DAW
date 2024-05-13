@@ -18,7 +18,7 @@ jobs:
         run: |
           sphinx-build doc _build
       - name: Deploy to GitHub Pages
-        uses: Yaelius/recuperacionuf3-4.DAW/actions-nueva-caracteristica@v3
+        uses: Yaelius/recuperacionuf3-4.DAW/actions-nueva-caracteristica
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         with:
           publish_branch: nueva-caracteristica
