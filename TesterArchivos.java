@@ -1,5 +1,3 @@
-package com.yael.hotchpotch;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Iterator;
